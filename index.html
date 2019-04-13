@@ -1,7 +1,69 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html>
-<body>
-Hello, world!
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Assistant:300|Work+Sans:300" rel="stylesheet"> 
+    <title>Jonas Nordlund</title>
+  </head>
+  <script type="text/javascript">
+    window.onload = function() {
+      var usr = 'jonas.nordlund'
+      var srv = 'gmail.com';
+      document.getElementById("mail")
+      .setAttribute('href', 'mailto:' + usr + '@' + srv);
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Assistant', sans-serif;
+      font-size: 1rem;
+      margin: 2rem;
+    }
+    div.container {
+      margin-top: 15vh;
+      max-width: 890px;
+    }
+
+    p.leading {
+      font-size: 1.5rem;
+    }
+
+    figure.avatar {
+      margin-bottom: 2rem;
+    }
+
+    div.profile {
+      text-align: right;
+      font-size: 1.5rem;
+    }
+
+    div.icons {
+      margin-top: 0.8rem;
+      margin-bottom: 0.8rem;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="columns">
+        <div class="column col-3 col-md-12 profile">
+            <figure class="avatar avatar-xl" data-initial="JN" style="background-color: #5755d9;"></figure>
+            <div class="name">Jonas Nordlund</div>
+            <div class="icons">
+                <a href="https://fb.com/jonas.nordlund"><i class="fab fa-facebook m-1"></i></a>
+                <!-- <i class="fab fa-twitter m-1"></i> -->
+                <a href="https://www.linkedin.com/in/jonasnordlund/"><i class="fab fa-linkedin m-1"></i></a>
+                <a id="mail"><i class="fas fa-envelope m-1"></i></a>
+            </div>
+        </div>
+        <div class="divider-vert"></div>
+        <div class="column col-md-12">
+          <p class="leading">Lorem ipsum dolor sit amet nullam et maecenas iaculis adipiscing.</p>
+          <p>Donec iaculis lorem metus, at euismod lorem et lobortis. Maecenas tincidunt posuere quam, eget tempus rutrum non. Donec iaculis lorem metus, at euismod lorem et lobortis. Maecenas tincidunt posuere quam, eget tempus rutrum non. Ut tincidunt amet ipsum.</p>
+          <p>Sed magna aculis lorem metus, at euismod lorem et magna lobortis. Maecenas tincidunt posuere quam, eget tempus rutrum non. Etiam tincidunt amet ipsum. Donec iaculis lorem metus, at euismod lorem et lobortis. Maecenas tincidunt posuere quam, eget tempus rutrum lorem metus rutrum non. Ut tincidunt amet ipsum feugiat sed tempus.</p>
+          <p>Maecenas tincidunt posuere quam, eget tempus rutrum non. Donec magna metus rutrum non. Ut tincidunt amet ipsum feugiat sed tempus. Lorem ipsum dolor sit amet nullam feugiat tempus.</p></div>
+      </div>
+  </body>
 </html>
