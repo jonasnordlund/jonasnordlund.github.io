@@ -43,27 +43,57 @@
     div.icons {
       margin-top: 0.8rem;
       margin-bottom: 0.8rem;
+      font-size: 0.9rem;
+    }
+
+    img.portrait {
+      border-radius: 50%;
+      width: 5rem;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    a {
+      color: black;
+    }
+
+    a:hover {
+      color: grey;
+      text-decoration: none;
     }
   </style>
   <body>
     <div class="container">
       <div class="columns">
         <div class="column col-3 col-md-12 profile">
-            <figure class="avatar avatar-xl" data-initial="JN" style="background-color: #5755d9;"></figure>
+            <img src="portrait-sm.jpg" class="portrait" alt="Porträtt">
             <div class="name">Jonas Nordlund</div>
             <div class="icons">
-                <a href="https://fb.com/jonas.nordlund"><i class="fab fa-facebook m-1"></i></a>
-                <!-- <i class="fab fa-twitter m-1"></i> -->
-                <a href="https://www.linkedin.com/in/jonasnordlund/"><i class="fab fa-linkedin m-1"></i></a>
-                <a id="mail"><i class="fas fa-envelope m-1"></i></a>
+              <ul>
+                <li><a href="https://fb.com/jonas.nordlund"><i class="fab fa-facebook m-1"></i> Facebook</a></li>
+                <li><a href="https://www.linkedin.com/in/jonasnordlund/"><i class="fab fa-linkedin m-1"></i> LinkedIn</a></li>
+                <li><a id="mail"><i class="fas fa-envelope m-1"></i> E-post</a></li>
+              </ul>
             </div>
         </div>
         <div class="divider-vert"></div>
         <div class="column col-md-12">
-          <p class="leading">Lorem ipsum dolor sit amet nullam et maecenas iaculis adipiscing.</p>
-          <p>Donec iaculis lorem metus, at euismod lorem et lobortis. Maecenas tincidunt posuere quam, eget tempus rutrum non. Donec iaculis lorem metus, at euismod lorem et lobortis. Maecenas tincidunt posuere quam, eget tempus rutrum non. Ut tincidunt amet ipsum.</p>
-          <p>Sed magna aculis lorem metus, at euismod lorem et magna lobortis. Maecenas tincidunt posuere quam, eget tempus rutrum non. Etiam tincidunt amet ipsum. Donec iaculis lorem metus, at euismod lorem et lobortis. Maecenas tincidunt posuere quam, eget tempus rutrum lorem metus rutrum non. Ut tincidunt amet ipsum feugiat sed tempus.</p>
-          <p>Maecenas tincidunt posuere quam, eget tempus rutrum non. Donec magna metus rutrum non. Ut tincidunt amet ipsum feugiat sed tempus. Lorem ipsum dolor sit amet nullam feugiat tempus.</p></div>
+          <p class="leading">En kort historik.</p>
+          <p>Jonas växte upp i Norrbotten, där han hade ett teknikintresse redan som liten under åttiotalet,
+            en sorts hemdatorns guldålder där alla ville finnas på var mans skrivbord. Här provade han på
+            och spelade, labbade med, och programmerade lite ABC 80, VIC 20, ZX Spectrum 48K, Commodore 64,
+            Amiga 500 Plus, och till sist dit vi alla tycktes ska hamna vare sig vi ville det eller ej: med PC.</p>
+
+          <p>I skolan utmejslade sig en väg som bar till naturvetenskapens värld, och till sist till
+            Luleå Tekniska Universitet, där han studerade till högskoleingenjör i datateknik.</p>
+
+          <p>I stort sett genast efter avslutad utbildning hamnade han på ett företag som utvecklade
+            GIS-produkter för samhällsbyggnad, där han framförallt arbetat med attt utveckla system för
+            dokumentation och underhåll av fjärrvärme- och optonät, tillsammans med en beskärd del
+            intern support och extern kundsupport, där kunderna är mestadels energiverk i Sverige
+            och Norge.</p>
       </div>
   </body>
 </html>
